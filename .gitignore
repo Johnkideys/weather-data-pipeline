@@ -1,0 +1,18 @@
+.env            
+__pycache__/    
+*.pyc           
+*.db            
+airflow_home/logs/           
+# Ignore Airflow database files
+airflow_home/airflow.db
+airflow_home/logs/
+# Ignore system files
+.DS_Store
+# Ignore sensitive environment variables
+.env
+# Ignore Docker-related files
+docker-compose.yml
+Dockerfile
+check_schema.py
+development/
+.vscode
