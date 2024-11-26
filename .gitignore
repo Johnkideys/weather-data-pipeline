@@ -15,4 +15,4 @@ docker-compose.yml
 Dockerfile
 check_schema.py
 development/
-.vscode
+.vscodeairflow_home/airflow.cfg
