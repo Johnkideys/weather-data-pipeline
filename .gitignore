@@ -1,4 +1,5 @@
-.env            
+.env  
+.vscode/          
 __pycache__/    
 *.pyc           
 *.db            
@@ -6,6 +7,7 @@ airflow_home/logs/
 # Ignore Airflow database files
 airflow_home/airflow.db
 airflow_home/logs/
+airflow_home/airflow.cfg
 # Ignore system files
 .DS_Store
 # Ignore sensitive environment variables
@@ -16,3 +18,5 @@ Dockerfile
 check_schema.py
 development/
 .vscodeairflow_home/airflow.cfg
+# my development notes for the project
+notes.txt
